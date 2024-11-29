@@ -1,0 +1,126 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+  }
+  
+  header {
+    background: #00d451;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background: #f4f4f4;
+  }
+  
+  .projetos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .projeto-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #020202;
+    color: #fff;
+  }
+  /* Estilo da seção de perfil */
+.perfil {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .perfil h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .perfil p {
+    font-size: 1rem;
+    color: #000000;
+  }
+ /* Estilo da seção de skills com ícones */
+.skills {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.skills h2 {
+  text-align: center;
+  color: #000811;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill i {
+  font-size: 4rem;
+  color: #6769ff;
+  margin-bottom: 1rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.skill i:hover {
+  color: #080d13;
+  transform: scale(1.2);
+}
+
+.skill h3 {
+  font-size: 1.2rem;
+  color: #030700a9;
+}
